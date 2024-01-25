@@ -3,28 +3,27 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <p>Placeholder for landing page</p>
+              <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
+
       <Image
               src="/landing.jpg"
               alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
+              width={500}
+              height={100}
               priority
             />
+            </div>
       <Image
               src="/landing-2.jpg"
               alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
+              width={500}
               height={24}
               priority
             />
 <Image
               src="/Instagram.jpg"
               alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
+              width={500}
               height={24}
               priority
             />
